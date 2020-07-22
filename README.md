@@ -9,6 +9,12 @@
 - install streamlit, pandas, numpy, sklearn.... as stated in the requirements.txt in that virtual environment 
 - launch pycharm and open app.py file while being in virtual environment
 - In terminal, use code,  "streamlit run app.py" to run the app in your localhost
+- Push all the code in github including requirements.txt, setup.sh and Procfile
+- Create a heroku account if you dont have any
+- Run the given below heroku command in terminal of pycharm to deploy the app in heroku cloud 
+ - heroku login
+ - heroku create app.py(your_appname)
+ - git push heroku master
 
 
 ## Demo:
