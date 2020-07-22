@@ -24,10 +24,8 @@ cmake==3.17.1
 cmdstanpy==0.4.0
 colorama==0.4.3
 confuse==1.1.0
-convertdate @ file:///home/conda/feedstock_root/build_artifacts/convertdate_1589287890831/work
 cryptography==2.3.1
 cycler==0.10.0
-Cython @ file:///D:/bld/cython_1594253747180/work
 decorator==4.4.1
 defusedxml==0.6.0
 Django==3.0.7
@@ -48,7 +46,6 @@ google-pasta==0.1.8
 graphviz==0.14
 grpcio==1.14.1
 h5py==2.8.0
-holidays @ file:///home/conda/feedstock_root/build_artifacts/holidays_1589367317537/work
 htmlmin==0.1.12
 idna==2.8
 ImageHash==4.1.0
@@ -74,7 +71,6 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 keyring==21.1.0
 kiwisolver==1.1.0
-korean-lunar-calendar @ file:///home/conda/feedstock_root/build_artifacts/korean_lunar_calendar_1589354365811/work
 lazy-object-proxy==1.4.3
 lime==0.2.0.1
 llvmlite==0.33.0
@@ -130,7 +126,6 @@ pyflakes==2.1.1
 Pygments==2.5.2
 PyJWT==1.7.1
 pylint==2.4.4
-PyMeeus @ file:///home/conda/feedstock_root/build_artifacts/pymeeus_1589222711601/work
 pyOpenSSL==19.0.0
 pyparsing==2.4.6
 PyQt5==5.12.3
