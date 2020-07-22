@@ -187,7 +187,7 @@ sweetviz==1.0a7
 tabulate==0.8.7
 tangled-up-in-unicode==0.0.6
 tensorboard==2.0.0
-tensorflow==2.0.0
+tensorflow==2.0.1
 tensorflow-estimator==2.0.0
 termcolor==1.1.0
 terminado==0.8.3
