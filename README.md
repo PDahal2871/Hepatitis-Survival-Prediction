@@ -25,6 +25,8 @@
 
 ## Includes:
 - Pandas
+- Pandas Profiling
+- Sweetviz
 - Numpy
 - Matplotlib
 - Seaborn
