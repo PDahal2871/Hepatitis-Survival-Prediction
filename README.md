@@ -16,6 +16,20 @@
   + heroku create app.py(your_appname)
   + git push heroku master
 
+## Algorithms used:
+- XGBoost
+- AdaBoost
+- CatBoost
+- Random Forest
+- ANN
+
+## Includes:
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Lime
+- eli5
 
 ## Demo:
 <img src="https://github.com/PDahal2871/ineuron_Python_Assignments/blob/master/Session%201/Screenshots/Screenshot%20(558).png" >
