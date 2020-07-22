@@ -12,15 +12,15 @@
 - Push all the code in github including requirements.txt, setup.sh and Procfile
 - Create a heroku account if you dont have any
 - Run the given below heroku command in terminal of pycharm to deploy the app in heroku cloud 
- - heroku login
- - heroku create app.py(your_appname)
- - git push heroku master
+  + heroku login
+  + heroku create app.py(your_appname)
+  + git push heroku master
 
 
 ## Demo:
 <img src="https://github.com/PDahal2871/ineuron_Python_Assignments/blob/master/Session%201/Screenshots/Screenshot%20(558).png" >
 
-=============================================================================
+============================================================================
 
 <img src="https://github.com/PDahal2871/ineuron_Python_Assignments/blob/master/Session%201/Screenshots/Screenshot%20(557).png" >
 
