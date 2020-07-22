@@ -41,9 +41,9 @@
 <img src="https://github.com/PDahal2871/ineuron_Python_Assignments/blob/master/Session%201/Screenshots/Screenshot%20(557).png" >
 
 ## App Link:
-###Tip:
+### Tip:
 - If the loading is too slow, copy the url link and open it in new tab
-<a href="https://hepatitis-survival-prediction.herokuapp.com/">Link of App</a>
+- <a href="https://hepatitis-survival-prediction.herokuapp.com/">Link of App</a>
 
 ## Tools Used:
 - <b>Sklearn</b>
