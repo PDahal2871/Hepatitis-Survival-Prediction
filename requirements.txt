@@ -1,4 +1,6 @@
+catboost==0.23.2
 eli5==0.10.1
+pickleshare==0.7.5 
 joblib==0.14.1
 Keras==2.3.1
 matplotlib==3.2.2
@@ -8,6 +10,4 @@ py==1.8.1
 scikit-learn==0.22.1
 seaborn==0.10.0
 streamlit==0.62.0
-sweetviz==1.0a7
-tabulate==0.8.7
 Werkzeug==1.0.1
