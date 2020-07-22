@@ -21,6 +21,7 @@ def main():
     html_temp = """
         <div style="background-color:orange">
             <p style="color:white; font-size:55px"> Hepatitis Survival Prediction</p>
+            <p style="color:white; font-size:13px"> Developer : Prakash Dahal</p>
         </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
