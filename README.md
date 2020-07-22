@@ -40,6 +40,9 @@
 
 <img src="https://github.com/PDahal2871/ineuron_Python_Assignments/blob/master/Session%201/Screenshots/Screenshot%20(557).png" >
 
+## App Link:
+<a href="https://hepatitis-survival-prediction.herokuapp.com/">Link of App</a>
+
 ## Tools Used:
 - <b>Sklearn</b>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" width="230px" height="130px">
