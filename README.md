@@ -20,7 +20,7 @@
 ## Demo:
 <img src="https://github.com/PDahal2871/ineuron_Python_Assignments/blob/master/Session%201/Screenshots/Screenshot%20(558).png" >
 
-=============================================================================
+============================================================================
 
 <img src="https://github.com/PDahal2871/ineuron_Python_Assignments/blob/master/Session%201/Screenshots/Screenshot%20(557).png" >
 
