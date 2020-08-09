@@ -27,6 +27,7 @@ def main():
 
     st.title("Check whether you will survive or not, of hepatitis")
 
+    #Getting values from the users
     protime = st.number_input("Enter Protime value (eg: 45)", value= 45,min_value=0)
 
     sgot = st.number_input("Enter Sgot value (eg: 30)", value=30, min_value=0)
@@ -53,7 +54,7 @@ def main():
     values = [[protime, sgot, bilirubin, age, alk_phosphate, albumin, spiders, histology,
               malaise, fatigue, sex]]
 
-    val = [[0.0, 114.0, 1.9, 45.0, 0.0, 2.4, 1.0, 2.0, 1.0, 1.0, 1.0]]
+    #val = [[0.0, 114.0, 1.9, 45.0, 0.0, 2.4, 1.0, 2.0, 1.0, 1.0, 1.0]]
 
     new_values = np.array(values)
     prediction = classifier.predict(new_values)
@@ -63,7 +64,7 @@ def main():
     print(percent)
     btn = st.button("Predict")
     if btn:
-        if prediction == [0]:
+        if prediction == [0]: #0 is for not surviving
             html_temp1 = """
                         <div style="background-color:red">
                             <p style="color:white; font-size:35px"> Sorry, your chance of survival is less</p>
@@ -75,7 +76,7 @@ def main():
                 img = f.read()
             st.image(img, width=350)
 
-        if prediction == [1]:
+        if prediction == [1]:  # 1 is for surviving
             html_temp1 = """
                                 <div style="background-color:green">
                                     <p style="color:white; font-size:35px"> Hurray!!!, your chance of survival is high</p>
