@@ -2,8 +2,6 @@
 Streamlit is being used to productionize the model
 
 """
-
-import streamlit as st
 import numpy as np
 import pickle
 import pandas as pd
@@ -11,9 +9,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
+import streamlit as st
 
-# Load the Catboost Classifier model
-filename = 'ctbst_hep.pkl'
+# Load the Catboost Classifier model / Random Forest is also good
+filename = 'ctb_hepatitis.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 
 def main():
@@ -54,34 +53,40 @@ def main():
     values = [[protime, sgot, bilirubin, age, alk_phosphate, albumin, spiders, histology,
               malaise, fatigue, sex]]
 
-    val =[[0.0, 114.0, 1.9, 45.0, 0.0, 2.4, 1.0, 2.0, 1.0, 1.0, 1.0]]
+    val = [[0.0, 114.0, 1.9, 45.0, 0.0, 2.4, 1.0, 2.0, 1.0, 1.0, 1.0]]
 
     new_values = np.array(values)
     prediction = classifier.predict(new_values)
-
+    percent = (classifier.predict_proba(new_values)[0][1]) * 100
+    percent = round(percent,2)
+    percent = f"{percent} % chance"
+    print(percent)
     btn = st.button("Predict")
     if btn:
         if prediction == [0]:
             html_temp1 = """
-                    <div style="background-color:red">
-                        <p style="color:white; font-size:35px"> Sorry, your chance of survival is very less</p>
-                    </div>
-                """
+                        <div style="background-color:red">
+                            <p style="color:white; font-size:35px"> Sorry, your chance of survival is less</p>
+                        </div>
+                    """
+            st.text(percent)
             st.markdown(html_temp1, unsafe_allow_html=True)
-            with open("sad.jpg",'rb') as f:
+            with open("sad.jpg", 'rb') as f:
                 img = f.read()
-            st.image(img,width=350)
+            st.image(img, width=350)
 
         if prediction == [1]:
             html_temp1 = """
-                            <div style="background-color:green">
-                                <p style="color:white; font-size:35px"> Hurray!!!, your chance of survival is very high</p>
-                            </div>
-                        """
+                                <div style="background-color:green">
+                                    <p style="color:white; font-size:35px"> Hurray!!!, your chance of survival is high</p>
+                                </div>
+                            """
+            st.text(percent)
             st.markdown(html_temp1, unsafe_allow_html=True)
-            with open("happy.jpg",'rb') as f:
+            with open("happy.jpg", 'rb') as f:
                 imgg = f.read()
-            st.image(imgg,width=350)
+            st.image(imgg, width=350)
+
 
 if __name__ == '__main__':
     main()
