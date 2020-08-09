@@ -25,18 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf065e57-b728-41a5-a3dc-318db3716a63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/HSP-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/HSP-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HSP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HSP.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/catboost_training.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/learn/events.out.tfevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catboost_info/learn_error.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/learn_error.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/time_left.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ctb_hepatitis.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ctb_hepatitis.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfc_hepatitis.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/rfc_hepatitis.pkl" afterDir="false" />
-    </list>
+    <list default="true" id="bf065e57-b728-41a5-a3dc-318db3716a63" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
