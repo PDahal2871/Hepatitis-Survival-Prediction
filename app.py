@@ -64,7 +64,7 @@ def main():
     print(percent)
     btn = st.button("Predict")
     if btn:
-        if prediction == [0]: #0 is for not surviving
+        if prediction == [0]: # 0 is for not surviving
             html_temp1 = """
                         <div style="background-color:red">
                             <p style="color:white; font-size:35px"> Sorry, your chance of survival is less</p>
