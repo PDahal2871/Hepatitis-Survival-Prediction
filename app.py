@@ -12,7 +12,7 @@ matplotlib.use('Agg')
 import streamlit as st
 
 # Load the Catboost Classifier model / Random Forest is also good
-filename = 'ctb_hepatitis.pkl'
+filename = 'rfc_hepatitis.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 
 def main():
@@ -40,7 +40,7 @@ def main():
 
     albumin = float(st.number_input("Enter Albumin value (eg: 4.1)", value=4.1, min_value=0.0))
 
-    spiders = st.number_input("Enter Spider value (eg: 1 or 2)", value=1, min_value=1,max_value=2)
+    spiders = st.number_input("Enter Spiders value (eg: 1 or 2)", value=1, min_value=1,max_value=2)
 
     histology = st.number_input("Enter Histology value (eg: 1 or 2)",value=1, min_value=1,max_value=2)
 
@@ -48,7 +48,7 @@ def main():
 
     fatigue= st.number_input("Enter Fatigue value (eg: 1 or 2)",value=1, min_value=1,max_value=2)
 
-    sex= st.number_input("Enter sex value (eg: 1 for male, 2 for female)",value=1, min_value=1,max_value=2)
+    sex= st.number_input("Enter your Gender value (eg: 1 for male, 2 for female)",value=1, min_value=1,max_value=2)
 
 
     values = [[protime, sgot, bilirubin, age, alk_phosphate, albumin, spiders, histology,
