@@ -60,7 +60,7 @@ def main():
     prediction = classifier.predict(new_values)
     percent = (classifier.predict_proba(new_values)[0][1]) * 100
     percent = round(percent,2)
-    percent = f"{percent} % chance"
+    percent = f"{percent} % chance of survival"
     print(percent)
     btn = st.button("Predict")
     if btn:
